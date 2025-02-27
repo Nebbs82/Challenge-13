@@ -2,13 +2,13 @@ import { useEffect, useState } from 'react';
 
 import { searchGithub, searchGithubUser } from '../api/API';
 
-import { Candidate } from '../interfaces/Candidate.interface';
+import { Candidate, GithubUser } from '../interfaces/Candidate.interface';
 
 const CandidateSearch = () => {
 
-  const [githubUsers, setGithubUsers] = useState<any[]>([]);
+  const [githubUsers, setGithubUsers] = useState<GithubUser[]>([]);
 
-  const [currentUser, setCurrentUser] = useState<Candidate>({}); 
+  const [currentUser, setCurrentUser] = useState<Candidate>({login: '', avatar_url: '', email: '', bio: '', company: '', location: '' }); 
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -16,7 +16,6 @@ const CandidateSearch = () => {
     const getUsers = async () => {
       const users = await searchGithub();
       console.log(users);
-
       setGithubUsers(users)
     }
 
@@ -81,8 +80,8 @@ const CandidateSearch = () => {
 
 
       <div>
-        <button onClick={skipUser}>Red</button>
-        <button onClick={saveUser}>Green</button>
+        <button className="skipUser" onClick={skipUser}>-</button>
+        <button className="saveUser" onClick={saveUser}>+</button>
       </div>
     </>
   );

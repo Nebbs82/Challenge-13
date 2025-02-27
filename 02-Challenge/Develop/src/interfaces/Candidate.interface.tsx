@@ -7,4 +7,12 @@ export interface Candidate {
     email?: string | null;
     bio?: string | null;
     company?: string | null;
-};
+}
+export interface GithubUser {
+    login: string;
+    avatar_url: string;
+    email?: string; 
+    bio?: string; 
+    company?: string; 
+    location?: string; 
+  }

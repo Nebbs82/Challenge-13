@@ -44,7 +44,7 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
+  border-radius:25px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -131,4 +131,12 @@ tbody tr:nth-child(odd) {
   width: 250px;
   border-radius: 20px;
 
+}
+
+.saveUser {
+  background-color: green;
+}
+
+.skipUser {
+  background-color: red;
 }
