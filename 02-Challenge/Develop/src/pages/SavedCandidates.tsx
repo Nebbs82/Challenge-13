@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
+import { Candidate } from '../interfaces/Candidate.interface';
 
 const SavedCandidates = () => {
 
-  const [candidates, setCandidates] = useState<any[]>([]);
+  const [candidates, setCandidates] = useState<Candidate[]>([]);
 
   useEffect(() => {
     const getCandidates = () => {
