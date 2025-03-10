@@ -16,7 +16,7 @@ An employee candidate search using github user profiles
 - [Questions](#questions)
 
 ## Installation
-bun run build && bun run dev
+bun run build && bun run dev to run locally or visit the deployed site @ [Candidate Search](https://candidatesearchbcs.netlify.app/)
 
 ## Usage
 To be used to find suitable employment candidates via their github profiles
