@@ -125,12 +125,20 @@ tbody tr:nth-child(odd) {
   background-color: black;
   padding: 10px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.card p {
+  width: 100%;
+  flex-direction: column;
 }
 
 .card-image {
   width: 250px;
   border-radius: 20px;
-
 }
 
 .saveUser {
