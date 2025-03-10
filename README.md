@@ -3,9 +3,11 @@
 ![License](https://img.shields.io/badge/license-n/a-blue.svg)
 
 [License](https://opensource.org/licenses/n/a)
+![Screenshot 2025-03-09 193217](https://github.com/user-attachments/assets/662bc061-6315-4ad5-8ea1-3aead582d628)
+![Screenshot 2025-03-09 193314](https://github.com/user-attachments/assets/bdb7587e-6168-4163-b564-c4c95af09ef0)
 
 ## Description
-An employee candidate search using github user profiles
+An employee candidate search using github user profiles.
 
 ## Table of Contents
 - [Installation](#installation)
